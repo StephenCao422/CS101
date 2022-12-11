@@ -167,9 +167,3 @@ def rev_palindrome(dna):
             if reverse_complement(dna[i:j + 1]) == string:  # check if the string compliment is a palindrome
                 result.append((i, j - i + 1))
     return result
-
-print(assemble_genome(["TCGAAAAGTAAG","ACTGACGTTGCC","CGTTATACAGAG","ACACACCTAATT"]))
-
-
-
-
