@@ -40,7 +40,7 @@ def greedy_scs(reads,k):
         read_a , read_b, olen = pick_maximal_overlap(reads,k)
     return ''.join(reads)
 
-#print(greedy_scs(dna_list,8))
+
 read = ["ATTAGACCTG","CCTGCCGGAA","AGACCTGCCG","GCCGGAATAC"]
 print(greedy_scs(read,1))
 end = time.time()
